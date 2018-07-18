@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script');
+
+body {
+    background-color: rgb(25,25,25);  
+    margin: 0;
+    height: 100vh;
+    background: #222;
+    font-family: 'Kaushan Script', cursive;
+    overflow: hidden;
+}
+
+
+h1 {
+    color: #fff;
+    font-size: 80px;
+    font-weight: 400;
+    margin: 0;
+}
+
+#nameX {
+    position: absolute;
+    top: 40%;
+    text-align: center;
+    width:100%;
+    -webkit-animation: logo 5s ease-in-out infinite;
+    animation: logo 5s ease-in-out infinite;
+}
+
+
+@-webkit-keyframes logo{
+    0% {
+        -ms-transform: scale(.5, .5); /* IE 9 */
+        -webkit-transform: scale(.5, .5); /* Safari */
+        transform: scale(.5, .5);
+    }
+    50% {
+        -ms-transform: scale(1, 1); /* IE 9 */
+        -webkit-transform: scale(1, 1); /* Safari */
+        transform: scale(1, 1);
+    }
+    100% {
+        -ms-transform: scale(.5, .5); /* IE 9 */
+        -webkit-transform: scale(.5, .5); /* Safari */
+        transform: scale(.5, .5);
+    }
+}
+
+@keyframes logo{
+    0% {
+        -ms-transform: scale(.5, .5); /* IE 9 */
+        -webkit-transform: scale(.5, .5); /* Safari */
+        transform: scale(.5, .5);
+    }
+    50% {
+        -ms-transform: scale(1, 1); /* IE 9 */
+        -webkit-transform: scale(1, 1); /* Safari */
+        transform: scale(1, 1);
+    }
+    100% {
+        -ms-transform: scale(.5, .5); /* IE 9 */
+        -webkit-transform: scale(.5, .5); /* Safari */
+        transform: scale(.5, .5);
+    }
+}
